@@ -9,7 +9,19 @@
         <h1>Times clicked:</h1>
         <h2 id="count-el">0</h2>
         <button id="addButton" onclick="addTo()">ADD +1</button>
-        <script src="index.js"></script>
+        <script>
+            let theCount = document.getElementById("count-el")
+            let count = 0
+
+            console.log(count)
+
+            function addTo(){
+                count = count + 1
+                theCount.innerText = count
+                document.title = "testing "+count
+                console.log("button was clicked my guy"+count)
+            }
+        </script>
         <button><a href='other.html' alt='link thingy'>to thingy</a></button>
     </body>
 </html>
