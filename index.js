@@ -5,7 +5,7 @@ console.log(count)
 
 function addTo(){
     count = count + 1
-    theCount.textContent = count
+    theCount.innerHTML = count
     document.title = "testing "+count
     console.log("button was clicked my guy"+count)
 }
