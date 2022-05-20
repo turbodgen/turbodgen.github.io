@@ -1,5 +1,5 @@
-let theCount = document.getElementById("count-el");
-let count = 0;
+var theCount = document.getElementById("count-el");
+var count = 0;
 
 // console.log(count);
 
@@ -8,5 +8,5 @@ function addTo(){
     theCount.innerHTML = count;
     document.getElementById("screenDimentions").innerHTML = screen.width+"x"+screen.height;
     document.title = "testing "+count;
-    console.log("button was clicked my guy"+count);
+    // console.log("button was clicked my guy"+count);
 };
