@@ -3,19 +3,32 @@
     <head>
         <title>testing</title>
         <link rel="stylesheet" href="index.css">
-        <link rel="icon" type="image/png" href="icon.ico" sizes="16x16">
+        <link rel="icon" type="image/png" href="imgs/icon.ico" sizes="16x16">
+        <script> 
+            $(function(){
+              $("#includedContent").load("sideb.html"); 
+            });
+        </script> 
     </head>
     <body>
+        <div class="sidebr">
+            <h2><a href="index.html">Home Page</a></h2>
+            <hr>
+            <h2><a href="other.html">Other Page</a></h2>
+            <hr>
+            <h2>test 2</h2>
+        </div>
         <div class="countDiv">
             <h1>Times clicked:</h1>
             <h2 id="count-el">0</h2>
             <button id="addButton" onclick="addTo()">ADD +1</button>
-            <button><a href='other.html' alt='link thingy'>to thingy</a></button>
+            <!--<button><a href='other.html' alt='link thingy'>to thingy</a></button>-->
             <script src="index.js"></script>
         </div>
         <footer>
-            <h3>Created by 'turbodgen'</h3>
+            <h3>Created by <a href="https://www.github.com/turbodgen">'turbodgen'</a></h3>
             <p>a quick html test</p>
         </footer>
+        <h3 id="screenDimentions">x</h3>
     </body>
 </html>
