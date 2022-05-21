@@ -4,9 +4,7 @@
 }
 h1{
     font-family: "Riffic";
-    font-size: 43px;
     position: relative;
-    float: left;
     color: white;
 }
 li:not(#usern) {
@@ -60,4 +58,20 @@ button{
     text-decoration: none;
     color: rgb(143, 196, 217);
     font-size: 20px;
+}
+
+.project{
+    background-color: cornflowerblue;
+    width: 20%;
+    height: 16%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#projs{
+    list-style: none;
+    padding: 2%;
+}
+.txtTitle{
+    font-size: 50px;
 }
