@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Riffic";
+    src: url(RifficFree-Bold.ttf);
+}
+h1{
+    font-family: "Riffic";
+    font-size: 43px;
+    position: relative;
+    float: left;
+    color: white;
+}
+li:not(#usern) {
+    display: inline-block;
+    font-family: "Riffic";
+    padding-right: 5%;
+    margin: 15px 0 15px 0;
+    font-size: 30px;
+}
+a:link:not(#ghub):not(#sitin){
+    color: white;
+}
+a:visited:not(#ghub):not(#sitin){
+    color: lightgray;
+}
+p{
+    font-size: 20px;
+}
+.topbar {
+    margin: auto;
+    list-style: none;
+    font-family: "Riffic";
+    color: aliceblue;
+    text-align: right;
+    background-color: cornflowerblue;
+}
+body{
+    background-color: rgb(113, 154, 207);
+    font-weight: bold;
+    text-align: center;
+    font-family: "Riffic";
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+}
+#usern{
+    font-size: 50px;
+    float: left;
+    text-align: left;
+    padding-left: 4%;
+}
+button{
+    font-size: larger;
+    width: 10%;
+}
+#sitin{
+    color:rgb(153, 187, 204);
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000000;
+}
+#ghub{
+    text-decoration: none;
+    color: rgb(143, 196, 217);
+    font-size: 20px;
+}
