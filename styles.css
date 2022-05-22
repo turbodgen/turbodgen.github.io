@@ -1,3 +1,4 @@
+/*Too Lazy To Sort This*/
 @font-face {
     font-family: "Riffic";
     src: url(RifficFree-Bold.ttf);
@@ -34,6 +35,7 @@ p{
     color: aliceblue;
     text-align: right;
     background-color: cornflowerblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*Going to make top bar full width.*/
 }
 body{
     background-color: rgb(113, 154, 207);
@@ -70,6 +72,7 @@ button{
     height: 16%;
     display: inline-block;
     margin-bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #projs{
@@ -80,6 +83,11 @@ button{
     font-size: 50px;
 }
 img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+video {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
