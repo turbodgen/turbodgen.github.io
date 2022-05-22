@@ -2,6 +2,10 @@
     font-family: "Riffic";
     src: url(RifficFree-Bold.ttf);
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 h1{
     font-family: "Riffic";
     position: relative;
@@ -74,4 +78,14 @@ button{
 }
 .txtTitle{
     font-size: 50px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+#history{
+    display: flex;
+    margin-left: 18%;
+    margin-right: 18%;
 }
