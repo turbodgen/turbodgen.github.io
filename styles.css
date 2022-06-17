@@ -97,3 +97,18 @@ video {
     margin-left: 18%;
     margin-right: 18%;
 }
+
+.summ{
+    background-color: cornflowerblue;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.summ img{
+    height: 25%;
+}
+
+.content{
+    display: none;
+}

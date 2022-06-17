@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>turbodgen - Main</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="icon" type="image/png" href="imgs/icon.ico" sizes="16x16">
+    </head>
+    <body>
+        <header>
+            <ul class="topbar">
+                <li id="usern">turbodgen</li>
+                <li><a href="../index.html">Home</a></il>
+                <li><a href="../page/proj.html">Projects</a></il>
+                <li><a href="../page/about.html">About Me</a></il>
+                <li><a href="../page/cont.html">Contact</a></il>
+            </ul>
+        </header>
+        <h1>Papersort</h1>
+        <div class="summ">
+            <p>While I was doing random stuff in my room, I randomly thought about making a better file sorter. I know that PDF's already exist,
+                but I wanted to make a way where you can flip through different pages. There would also be different tools which would help you.
+            </p>
+            <p>Currently, it's still an idea, but I'm getting closer to making it.</p>
+        </div>
+        <br>
+        <div class="summ">
+            <h2>Filetype Test 1 - 6/1/22 to 6/8/22</h2>
+            <p>I started with writing stuff down. I made a quick sketch of what I wanted to create. Since I didn't know what to make it in yet, I
+                decided to start making it in Python with tkinter.
+            </p>
+            <img src="../imgs/imgPge/psfiletest1.png">
+            <p>I started on June 1st 2022 with the gui. I got the buttons and the basic structure all set up and made it so you can import files.
+                The next day, on June 2nd, I mostly looked online about how to create a ZIP file with Python, but nothing was working for some reason.
+                I used the built in zipfile module to load the file. The next day, I got "shutil.make_archive" working, and made it so the zip files were made as a
+                ".2pf" file. I also made the clear button work.
+            </p>
+            <p>On June 4th, I added a label that says the last task done. I didn't do anything until June 7th, where I created a "popup" class, where
+                you can remove an item or change it's description. I made a text file that had the descriptions in it to be saved. I was trying to
+                make a scrollable canvas work, but it wasn't working for some reason, so I coded left and right buttons. The next day, on June 8th,
+                I did some bug fixing and made an unsaved data checker.
+            </p>
+            <img src="../imgs/imgPge/psfinished.png">
+        </div>
+        <br>
+        <button type="button" class="collapsible">View Notebook</button>
+        <div class="content">
+            <embed src="papersort.pdf" width=60% height=500px>
+        </div>
+        <br><br>
+        <footer>
+            <h3>Created by <a id="ghub" href="https://www.github.com/turbodgen" target="_blank">"turbodgen"</a></h3>
+            <h4><a id="sitin" href="nfo.html">Site Info</a></h4>
+        </footer>
+        <script src="expand.js"></script>
+    </body>
+</html>
