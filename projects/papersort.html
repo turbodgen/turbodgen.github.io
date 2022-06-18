@@ -25,8 +25,8 @@
         <br>
         <div class="summ">
             <h2>Filetype Test 1 - 6/1/22 to 6/8/22</h2>
-            <p>I started with writing stuff down. I made a quick sketch of what I wanted to create. Since I didn't know what to make it in yet, I
-                decided to start making it in Python with tkinter.
+            <p>I started with writing stuff down. I made a quick sketch of what I wanted to create. I didn't know what to make it in yet, I
+                decided to use Python with tkinter as a test. That's most likely going to change with the main program.
             </p>
             <img src="../imgs/imgPge/psfiletest1.png">
             <p>I started on June 1st 2022 with the gui. I got the buttons and the basic structure all set up and made it so you can import files.
@@ -44,11 +44,15 @@
         <br>
         <button type="button" class="collapsible">View Notebook</button>
         <div class="content">
-            <embed src="papersort.pdf" width=60% height=500px>
+            <button id="leftBut" onclick="left()" style="float: left;">Left</button>
+            <img id="pgShow" src="psnotebook/1crop.png" width = 30%>
+            <button id="rightBut" onclick="right()" style="float: right;">Right</button>
+            <!--<embed src="papersort.pdf" width=60% height=500px>-->
         </div>
         <br><br>
         <footer>
             <h3>Created by <a id="ghub" href="https://www.github.com/turbodgen" target="_blank">"turbodgen"</a></h3>
+            <h4>Updated 6/17/22 7:00 PM CST</h4>
             <h4><a id="sitin" href="../page/nfo.html">Site Info</a></h4>
         </footer>
         <script src="expand.js"></script>
