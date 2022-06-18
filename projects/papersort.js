@@ -2,6 +2,7 @@ var coll = document.getElementsByClassName("collapsible");
 var i;
 var page = 1;
 var pageImg = document.getElementById("pgShow");
+var pageNum = document.getElementById("pageNum")
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
@@ -25,7 +26,8 @@ function left(){
     return
   }
   page = page - 1;
-  pageImg.src = "psnotebook/"+page+"crop.png"
+  pageImg.src = "../imgs/imgPge/psnotebook/"+page+"crop.png"
+  pageNum.textContent = "Page "+page+"/4"
 };
 
 
@@ -34,5 +36,6 @@ function right(){
     return
   }
   page = page + 1;
-  pageImg.src = "psnotebook/"+page+"crop.png"
+  pageImg.src = "../imgs/imgPge/psnotebook/"+page+"crop.png"
+  pageNum.textContent = "Page "+page+"/4"
 };
