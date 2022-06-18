@@ -1,4 +1,9 @@
 /*Too Lazy To Sort This*/
+
+:root{
+    --box-shadow-fade: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
 @font-face {
     font-family: "Riffic";
     src: url(RifficFree-Bold.ttf);
@@ -35,7 +40,7 @@ p{
     color: aliceblue;
     text-align: right;
     background-color: cornflowerblue;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*Going to make top bar full width.*/
+    box-shadow:  var(--box-shadow-fade); /*Going to make top bar full width.*/
 }
 body{
     background-color: rgb(113, 154, 207);
@@ -72,7 +77,7 @@ button{
     height: 16%;
     display: inline-block;
     margin-bottom: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: var(--box-shadow-fade);
 }
 
 #projs{
@@ -102,7 +107,7 @@ video {
     background-color: cornflowerblue;
     width: 70%;
     margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: var(--box-shadow-fade);
 }
 
 .summ img{
@@ -115,5 +120,5 @@ video {
     background-color: cornflowerblue;
     width: 60%;
     margin: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: var(--box-shadow-fade);
 }
