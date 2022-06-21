@@ -58,7 +58,7 @@ body{
 }
 button{
     font-size: larger;
-    width: 10%;
+    width: 12%;
 }
 #sitin{
     color:rgb(153, 187, 204);
@@ -121,4 +121,14 @@ video {
     width: 60%;
     margin: auto;
     box-shadow: var(--box-shadow-fade);
+}
+
+input {
+    box-shadow: var(--box-shadow-fade);
+    width: 30%;
+    font-size: 120%;
+}
+
+#tool{
+    padding: 1%;
 }
