@@ -26,6 +26,7 @@ function download(file) {
 /* Download info */
 function downloadSong(){
     var trackid = songInput.value.slice(0, songInput.value.length);
+    trackid = trackid.replace(/\s+/g, '');
     var excludingend = trackid.slice(0, trackid.length - 6);
     var first = trackid.slice(0, trackid.indexOf("_"));
     var second = trackid.slice(trackid.indexOf("_")+1, getPosition(trackid, "_", 2));
